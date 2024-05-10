@@ -1,0 +1,119 @@
+
+
+.weatherContainer{
+    border-radius: 6px;
+    height: 35%;
+    background-color: rgba(16, 23, 68, 1);
+}
+
+
+
+.weatherHeader{
+    border-radius: 6px 6px 0 0;
+    height: 30%;
+    background-color:rgba(255, 74, 222, 1); 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 47px;
+    letter-spacing: 0.02em;
+}
+
+
+
+.weatherFooter{
+    height: 70%;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+}
+
+.weatherFooter>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vh;
+}
+
+
+
+.dayCondition {
+    height: 90%;
+    position: relative;
+    bottom: 12%;
+}
+
+.dayCondition>img {
+    height: 80%;
+}
+
+.dayCondition>span {
+    margin: 0;
+    font-family: Roboto;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 0rem;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.tempraturePressure {
+    height: 90%;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0em;
+    text-align: center
+}
+
+
+
+.tempraturePressure>span {
+    line-height: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    margin: 0;
+    font-family: Roboto;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.tempraturePressure>span>img {
+    height: 60%;
+}
+
+.windHumidity {
+    height: 90%;
+    font-family: Roboto;
+    font-size: 0.5rem;
+    font-weight: 400;
+    line-height: 0.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.windHumidity>span {
+    display: flex;
+    align-items: center;
+    gap: 1.1vh;
+}
+
+.windHumidity>span>img {
+    height: 60%;
+}
+
+.border{
+    height: 55%;
+    width: 1px;
+    background-color: white;
+    align-self: center;
+}

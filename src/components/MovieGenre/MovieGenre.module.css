@@ -1,0 +1,125 @@
+/* .category-container {
+    margin: 3vh 3vw 3vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+} */
+
+.container{
+    margin: 3vh 3vw 3vh 3vw;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box;
+}
+
+.left {
+    width: 25vw;
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.left>h3 {
+    font-family: Single Day;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 18vh;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(114, 219, 115, 1);
+    margin: 0;
+}
+
+.left>p {
+    margin: 0;
+    margin-bottom: 5vh;
+    font-family: Roboto;
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 11vh;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1)
+}
+
+.selectedCategory{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+}
+
+.selectedCategory>div {
+    width: 9vw;
+    height: 4vh;
+    border-radius: 31px;
+    background-color: rgba(20, 138, 8, 1);
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.selectedCategory>div>img {
+    height: 35%;
+    width: 10%;
+    cursor: pointer;
+}
+
+.error {
+    margin-top: 2vh;
+    color: rgba(255, 0, 0, 1);
+    font-family: Roboto;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.error>img {
+    height: 32%;
+    margin-right: 0.4vw;
+}
+
+.right{
+    color: white;
+    width: 49vw;
+    height: 94vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 3vh;
+    margin-top: 5.6vh;
+}
+
+.container>button {
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(20, 138, 8, 1);
+    position: absolute;
+    right: 8vw;
+    bottom: 3vh;
+    color: white;
+    font-family: DM Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    cursor: pointer;
+    transition: 2s;
+}
+
+.container>button:active {
+    scale: 0.4
+}
